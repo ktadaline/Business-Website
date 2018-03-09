@@ -1,6 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans";
 body {
-  min-height: 100%;
+  height: 100%;
+  width: 100%;
   background-image: url(coffeeNotebook.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,6 +46,9 @@ body {
   display: none;
   width: 10%; }
 
+.responsive {
+  display: none; }
+
 @media (max-width: 980px) {
   .menu-icon {
     display: flex;
@@ -57,15 +61,56 @@ body {
   .right {
     display: none; } }
 
+.hiddenLinks {
+  display: none;
+  top: 100px;
+  left: 100px; }
+
 @media (max-width: 980px) {
-  .right.responsive {
-    position: relative; }
-  .right.responsive.menu-icon {
-    color: Helvetica; }
-  .right.responsive a {
-    float: none;
-    display: block;
-    text-align: left; } }
+  .responsive {
+    display: flex;
+    margin: auto;
+    color: #00a600;
+    text-decoration: none;
+    font-family: impact;
+    width: 10%; }
+  .showContainer {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.432);
+    justify-content: right;
+    align-items: right;
+    text-align: center;
+    align-content: center; }
+  .links {
+    flex: 3;
+    margin: 140px auto;
+    background-color: rgba(255, 255, 255, 0.432);
+    text-decoration: none;
+    justify-content: right;
+    align-items: right; }
+  .hl {
+    text-decoration: none;
+    list-style: none;
+    padding: 9px;
+    width: 100px;
+    justify-content: right;
+    align-items: right; }
+  .l {
+    font-Size: 20px;
+    text-decoration: none;
+    font-family: Helvetica;
+    color: black;
+    padding: 25px;
+    justify-content: right;
+    align-items: right; }
+  .l:hover {
+    color: #00a600;
+    cursor: pointer; } }
+
+.hideContainer {
+  display: none;
+  width: 100%;
+  height: 100%; }
 
 /*
 .right{
@@ -123,7 +168,7 @@ body {
     }
 
 */
-li {
+.list {
   display: inline-block;
   text-align: center;
   padding: 0px 15px; }
@@ -236,4 +281,5 @@ li {
   padding: 10px 20px; }
 
 html {
-  height: 100%; }
+  height: 100%;
+  width: 100%; }

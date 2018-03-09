@@ -4,6 +4,7 @@
     <title>Sroub Consulting Group</title>
     <link rel = "stylesheet" type="text/css" href ="flexsass.css">
     <link rel = "icon" href = "Tree.png">
+    <script type="text/javascript" src="menuButton.js"></script>
 </head>
 
 <body>
@@ -11,19 +12,26 @@
     <nav id ="both">   
     <div class ="container">
         <ul  class = "left">
-            <li><a class="logo" href = "home.html"><img src = "Tree.png" id = "tree"/></a></li>
-            <li><a class = "sroub" href = "home.html">Sroub Consulting Group</a></li>
-            <li><a></a></li>
+            <li class = "list"><a class="logo" href = "home.html"><img src = "Tree.png" id = "tree"/></a></li>
+            <li class = "list"><a class = "sroub" href = "home.html">Sroub Consulting Group</a></li>
+            <li class = "list"><a></a></li>
         </ul>
-        <a href "javascript:void(0);" style="font-size:30px;" class="menu-icon" onclick = "menuButton.myFunction()">&#9776;</a>
-        <ul class = "right">
-            <li><a class = "r" href = "projects.html">Projects</a></li>
-            <li><a class = "r" href = "about.html">About</a></li>
-            <li><a class = "r" href = "contact.html">Contact</a></li>
+        <a style="font-size:30px;" class="menu-icon" id="menuID" onclick = "myFunction()">&#9776;</a>
+        <ul class = "right" id = "rightID">
+            <li class = "list"><a class = "r" href = "projects.html">Projects</a></li>
+            <li class = "list"><a class = "r" href = "about.html">About</a></li>
+            <li class = "list"><a class = "r" href = "contact.html">Contact</a></li>
         </ul>
     </div>  
     </nav>
 
+<div class = "hideContainer" id = "hideContainerID">
+    <ul class = "links" id = "linksID">
+            <li class = "hl"><a class = "l" href = "projects.html">Projects</a></li>
+            <li class = "hl"><a class = "l" href = "about.html">About</a></li>
+            <li class = "hl"><a class = "l" href = "contact.html">Contact</a></li>
+    </ul>
+</div>
 
 
 <article class = "main">
