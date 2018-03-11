@@ -2,6 +2,7 @@
 body {
   height: 100%;
   width: 100%;
+  margin: 0px;
   background-image: url(coffeeNotebook.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,6 +25,7 @@ body {
   position: fixed;
   top: 0px;
   left: 0px;
+  z-index: 9000;
   border-bottom: 1px solid #d4d4d4;
   background-color: #ffffff; }
 
@@ -76,36 +78,36 @@ body {
     width: 10%; }
   .showContainer {
     display: flex;
-    background-color: rgba(0, 0, 0, 0.432);
-    justify-content: right;
-    align-items: right;
+    justify-content: center;
+    width: 100%;
     text-align: center;
-    align-content: center; }
+    z-index: 1000; }
   .links {
-    flex: 3;
-    margin: 140px auto;
-    background-color: rgba(255, 255, 255, 0.432);
+    width: 100%;
+    text-align: center;
+    margin: 106px 0px;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.959);
+    border-bottom: 1px solid #d4d4d4;
     text-decoration: none;
-    justify-content: right;
-    align-items: right; }
+    padding: 10px;
+    justify-content: space-between; }
   .hl {
     text-decoration: none;
     list-style: none;
-    padding: 9px;
-    width: 100px;
-    justify-content: right;
-    align-items: right; }
+    text-align: center;
+    padding: 15px; }
   .l {
     font-Size: 20px;
     text-decoration: none;
     font-family: Helvetica;
     color: black;
-    padding: 25px;
-    justify-content: right;
-    align-items: right; }
+    align-items: center;
+    padding: 13px;
+    border-bottom: 1px solid rgba(36, 35, 35, 0.514); }
   .l:hover {
-    color: #00a600;
-    cursor: pointer; } }
+    cursor: pointer;
+    border-bottom: 2px solid #00a600; } }
 
 .hideContainer {
   display: none;
@@ -212,10 +214,45 @@ body {
   height: 60px;
   width: 60px; }
 
+.containSP {
+  height: 100%;
+  width: 100%;
+  display: fixed; }
+
+#specialProjects {
+  margin: auto; }
+
+/*
+#quote{
+    flex: 1;
+    color: $third-color;
+    font-family: $primary-font;
+    width: 790px;
+    font-size: 70px;
+    font-weight: 750;
+    text-align: center;
+}
+.manuscript{
+    flex: 1;
+    color: $third-color;
+    font-family: $primary-font;
+    padding: 15px 0px;
+    width: 600px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 5px;
+   text-decoration: none;
+   font-style: italic;
+   cursor: pointer;
+   text-align: center;
+   justify-content: center;
+
+}
+*/
 #quote {
   color: #ffffff;
   font-family: Helvetica;
-  top: 300px;
+  top: 315px;
   position: fixed;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -228,7 +265,7 @@ body {
   color: #ffffff;
   font-family: Helvetica;
   padding: 15px 0px;
-  top: 550px;
+  top: 565px;
   position: fixed;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -256,30 +293,74 @@ body {
   border-radius: 100px;
   background-color: rgba(0, 0, 0, 0.507); }
 
-.mainProjects {
-  top: 400px;
-  position: fixed;
-  color: #ffffff;
-  font-family: Helvetica;
-  width: 900px;
-  text-align: justify;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 10px 20px; }
-
-.lefty {
-  top: 400px;
-  position: fixed;
-  color: #ffffff;
-  font-family: Helvetica;
-  width: 700px;
-  text-align: justify;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 10px 20px; }
-
+/*.mainProjects{
+    top: 400px;
+    position: fixed;
+    color: $third-color;
+    font-family: $primary-font;
+    width: 900px;
+    text-align: justify;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+}
+.projectsText{
+    top: 400px;
+    position: fixed;
+    color: $third-color;
+    font-family: $primary-font;
+    width: 700px;
+    text-align: justify;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+}
+*/
 html {
   height: 100%;
   width: 100%; }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .sroub {
+    font-size: 45px; }
+  .container {
+    padding: 55px 25px; }
+  #quote {
+    top: 700px;
+    position: absolute;
+    overflow: scroll; }
+  .manuscript {
+    top: 950px;
+    position: absolute;
+    overflow: scroll; }
+  .showContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    z-index: 1000; }
+  .links {
+    width: 100%;
+    text-align: center;
+    margin: 136px 0px;
+    z-index: 1000;
+    border-bottom: 1px solid #d4d4d4;
+    text-decoration: none;
+    padding: 60px;
+    justify-content: space-between; }
+  .hl {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    padding: 35px; }
+  .l {
+    font-Size: 20px;
+    text-decoration: none;
+    font-family: Helvetica;
+    color: black;
+    align-items: center;
+    padding: 33px;
+    border-bottom: 1px solid rgba(36, 35, 35, 0.514); } }
