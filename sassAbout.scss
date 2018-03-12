@@ -1,0 +1,208 @@
+@import "flexsass.scss";
+#selected{
+    color:$primary-color;
+}
+.fix{
+    display: fixed;
+    position: fixed;
+    top: 0px;
+    margin: 0px, 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.main{
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    overflow: scroll;
+    margin: 0px;
+    z-index: 90000;
+    flex-direction: column;
+}
+
+.containerText{
+justify-content: flex-start;
+display: flex;
+flex-direction: column;
+margin: 0px 0px;
+width: 75%;
+//background-color: rgba(0, 0, 0, 0.74);
+}
+.container2{
+    margin: 0px, 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topSPText{
+    margin:0px, 0px;;
+    color: $second-color;
+    font-family: $primary-font;
+    font-size: 20px;
+    text-align: left;
+   // width: 850px;
+   padding: 15px;
+
+}
+.mainProjects{
+    display: flex;
+   margin: 0px 0px;
+    width:100%;
+   height: 800px;
+   justify-content: center;
+    //justify-content: space-between;
+   // padding: 23px;
+    flex-direction: row;
+   // justify-content: center;
+   
+}
+.projectsText{
+    flex: 1;
+    order: 2;
+    //width: 500px;
+    height: 600px;
+    //margin: auto;
+    color: $second-color;
+    font-family: $primary-font;
+    font-size: 20px;
+    text-align: left;
+    justify-content: space-between;
+   padding: 0px 15px;
+   
+   // background: red;
+}
+.toon{
+    order: 1;
+    padding: 5px 20px;
+   
+}
+.newMarkets{
+    //flex: 1;
+    width: 260px;
+    height: 488px;
+    //margin: 0px 100px;
+    //padding: 100px, 100px;
+    top: 50px;
+    align-self: flex-start;
+    border-radius: 8px;
+    z-index: -1;
+}
+.picProjects{
+    flex-direction: row;
+    margin: 0px 0px;
+    background-image: url(bridge.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+z-index: 500;
+//position: fixed;
+}
+.finishLine2{
+    width:  100%;
+    height: 490px;
+    margin: 0px 0px;
+    //border-radius: 8px;
+    //text-align: center;
+  // display: none;
+ }
+.finishLine{
+   width:  100%;
+   //border-radius: 8px;
+   //text-align: center;
+  display: none;
+}
+
+#aboutTitle{
+    //background-color: $third-color;
+    //border-top: 1px solid $primary-color; 
+    color: $second-color;
+    //color: gray;
+    font-family: $primary-font;
+    //font-style: italic;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0px;
+    width: 100%;
+    text-align: left;
+    display:inline-flex;
+    //padding: 1000px 28px;
+}
+
+
+#projectExamplesText1Title{ 
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+   margin: 0px;
+   font-family: $primary-font;
+   //color: $primary-color;
+}
+#projectExamplesText2Title, #projectExamplesText3Title{
+    font-size: 35px;
+    text-align: left;
+    font-family: $primary-font;
+    font-weight: bold;
+    //font-family: $sroub-font;
+    //color: $primary-color;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-image: url(keys.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    //display: flex;
+    
+    }
+
+   /* Smartphones (portrait and landscape) ----------- */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+
+.container2{
+    flex-direction: column;
+    display: flex;
+}
+.toon{
+    order: 2;
+   align-items: flex-end;
+  // display: flex;
+} 
+
+.newMarkets{
+    margin: flex-start;
+   
+}
+.projectsText{
+    order: 2;
+   height: 1100px;
+}
+
+#projectsTitle{
+    font-size: 69px;
+
+}
+#projectExamplesText1Title,  #projectExamplesText2Title, #projectExamplesText3Title, {
+    font-size: 45px; 
+}
+
+
+.topSPText, .projectsText{
+
+    font-size: 35px;
+}
+
+
+}
+  

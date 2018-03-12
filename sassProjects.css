@@ -437,15 +437,21 @@ html {
   height: 488px;
   top: 50px;
   align-self: flex-start;
-  border-radius: 8px; }
+  border-radius: 8px;
+  z-index: -1; }
 
 .picProjects {
   flex-direction: row;
-  margin: 0px 0px; }
+  margin: 0px 0px;
+  background-image: url(business.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 500; }
 
 .finishLine2 {
   width: 100%;
-  height: 500px;
+  height: 490px;
   margin: 0px 0px; }
 
 .finishLine {
