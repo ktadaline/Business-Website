@@ -366,6 +366,9 @@ html {
     border-bottom: 1px solid rgba(36, 35, 35, 0.514); } }
 
 #selected {
+  color: #00c800; }
+
+#selected:hover {
   color: #00a600; }
 
 .fix {
@@ -393,7 +396,7 @@ html {
   display: flex;
   flex-direction: column;
   margin: 0px 0px;
-  width: 75%; }
+  width: 65%; }
 
 .container2 {
   margin: 0px, 0px;

@@ -2,30 +2,88 @@
 <html>
 <head>
     <title>Sroub Consulting Group</title>
-    <link rel = "stylesheet" type="text/css" href ="pretty.css">
+    <link rel = "stylesheet" type="text/css" href ="sassContact.css">
     <link rel = "icon" href = "Tree.png">
+    <script type="text/javascript" src="menuButton.js"></script>
 </head>
+
 <body>
 
-<nav id ="both">   
+    <nav id ="both">   
     <div class ="container">
         <ul  class = "left">
-            <li><a class="logo" href = "home.html"><img src = "Tree.png" id = "tree"/></a></li>
-            <li><a class = "sroub" href = "home.html">Sroub Consulting Group</a></li>
-            <li><a></a></li>
+            <li class = "list"><a class="logo" href = "home.html"><img src = "Tree.png" id = "tree"/></a></li>
+            <li class = "list"><a class = "sroub" href = "home.html">Sroub Consulting Group</a></li>
+            <li class = "list"><a></a></li>
         </ul>
-        <ul class = "right">
-            <li><a class = "r" href = "projects.html">Projects</a></li>
-            <li><a class = "r" href = "about.html">About</a></li>
-            <li><a class = "r" href = "contact.html">Contact</a></li>
+        <a style="font-size:30px;" class="menu-icon" id="menuID" onclick = "myFunction()">&#9776;</a>
+        <ul class = "right" id = "rightID">
+            <li class = "list"><a class = "r"  href = "projects.html">Services</a></li>
+            <li class = "list"><a class = "r" href = "about.html">About</a></li>
+            <li class = "list"><a class = "r" id ="selected" href = "contact.html">Contact</a></li>
         </ul>
-    </div>   
-</nav>
+    </div>  
+    </nav>
 
+<div class = "hideContainer" id = "hideContainerID">
+    <ul class = "links" id = "linksID">
+            <li class = "hl"><a class = "l" href = "projects.html">Services</a></li>
+            <li class = "hl"><a class = "l" href = "about.html">About</a></li>
+            <li class = "hl"><a class = "l" id ="dropSelected" href = "contact.html">Contact</a></li>
+    </ul>
+</div>
+<article class = "fix">
+<div class = "main">
+    <div class = "picProjects">
+        <div class="finishLine2">
+    
+    </div>
+        </div>
+    <div class = "mainProjects">
 
-
-<article class = "main2">
+<div class = "containerText">
+    <div class = "container1">
+        <div class="topSPText">
+                <img src = "birch.jpeg" class = "finishLine"/>
+    <p id="projectsTitle">
+        CONTACT
+    </p>
+    <p id="projectsText">
+            Most business activity is managed by well-trained people following established practices. But sometimes to address changing markets, competition and / or growth aspirations, activities outside established practices are required. Special project teams turn those opportunities into gainful business units and then transition them into the organization where they can be managed with traditional metrics.
+    </p>
+        </div>  
+    </div>
+    <div class = "container2">
+        <div class="projectsText">
+    <p id = "projectExamplesText1Title">
+            Intrapreneurial Projects/ New Adjacent Markets. 
+    </p>
+    <p id = "projectExamplesText1">
+            Just because current business metrics don’t apply to special projects doesn’t mean they are a free-for-all. Special projects can be measured with by achieving a variety of milestones against norms.
+    </p>
+    <p id = "projectExamplesText2Title">
+            Entrepreneurial Projects/ Growth Specialists. 
+    </p>
+    <p id = "projectExamplesText2">       
+            Entrepreneurs often blaze wildly circuitous trails in the early days. With larger investment comes the need to build organizations that scale.      
+    </p>
+    <p id = "projectExamplesText3Title">
+            Building a Marketing Department.
+    </p>        
+     <p id = "projectExamplesText3">   
+    Some companies were built with sales ad  operations, but now are faced with stalling growth and complicated strategic questions about alliances and new market segments. They now need a formal marketing function.      
+    </p>
+    </div>
+    <div class = "toon">
+ <img src = "newMarkets.png" class = "newMarkets"/>
+</div> 
+</div>
+</div>
+</div>
+</div>
 </article>
+
+
 </body>
 
 </html>

@@ -1,6 +1,15 @@
 @import "flexsass.scss";
 #selected{
-    color:$primary-color;
+    color: $primary-color *1.2;
+}
+#selected:hover{
+    color: $primary-color;
+}
+#dropSelected{
+  //  color: gray;
+}
+#dropSelected:hover{
+    //color: $primary-color;
 }
 .fix{
     display: fixed;
@@ -94,7 +103,7 @@ width: 75%;
 .picProjects{
     flex-direction: row;
     margin: 0px 0px;
-    background-image: url(business.jpeg);
+    background-image: url(sage.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;

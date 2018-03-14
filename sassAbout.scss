@@ -1,7 +1,18 @@
 @import "flexsass.scss";
 #selected{
-    color:$primary-color;
+    color: $primary-color *1.2;
 }
+#selected:hover{
+    color: $primary-color;
+}
+
+#dropSelected{
+    //color: $primary-color;
+}
+#dropSelected:hover{
+   // color: $primary-color;
+}
+
 .fix{
     display: fixed;
     position: fixed;
@@ -28,7 +39,7 @@ justify-content: flex-start;
 display: flex;
 flex-direction: column;
 margin: 0px 0px;
-width: 75%;
+width: 65%;
 //background-color: rgba(0, 0, 0, 0.74);
 }
 .container2{

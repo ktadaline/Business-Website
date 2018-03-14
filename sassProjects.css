@@ -366,6 +366,9 @@ html {
     border-bottom: 1px solid rgba(36, 35, 35, 0.514); } }
 
 #selected {
+  color: #00c800; }
+
+#selected:hover {
   color: #00a600; }
 
 .fix {
@@ -443,7 +446,7 @@ html {
 .picProjects {
   flex-direction: row;
   margin: 0px 0px;
-  background-image: url(business.jpeg);
+  background-image: url(sage.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
