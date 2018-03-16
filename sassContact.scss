@@ -12,6 +12,32 @@
     //color: $primary-color;
 }
 
+.txtin{
+    width: 100%;
+}
+.bigtxtin{
+    width: 100%;
+}
+
+.contactcontainer{
+    display: flex;
+}
+
+.forms{
+    flex: 2;
+    background-color: rgb(230, 230, 230);
+    border: 1px solid rgb(0, 0, 0);
+}
+.margincontact{
+    flex: 0.5;
+}
+.other{
+    flex: 1;
+    background-color: rgb(230, 230, 230);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
 .fix{
     display: fixed;
     position: fixed;
@@ -104,7 +130,7 @@ width: 75%;
 .picProjects{
     flex-direction: row;
     margin: 0px 0px;
-    background-image: url(shake.jpeg);
+    background-image: url(keys.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -164,7 +190,7 @@ body{
     height: 100%;
     width: 100%;
     margin: 0px;
-    background-image: url(shake.jpeg);
+   // background-image: url(arcade.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
