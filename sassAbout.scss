@@ -6,11 +6,20 @@
     color: $primary-color;
 }
 
+.national{
+    width: 100%;
+}
 #dropSelected{
     //color: $primary-color;
 }
 #dropSelected:hover{
    // color: $primary-color;
+}
+
+.navTitle{
+    font-size: 17px;
+    font-family: $primary-font;
+    text-align: center;
 }
 
 .fix{
@@ -105,7 +114,7 @@ width: 65%;
 .picProjects{
     flex-direction: row;
     margin: 0px 0px;
-    background-image: url(bridge.jpeg);
+    background-image: url(rosette.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;

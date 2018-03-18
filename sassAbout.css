@@ -371,6 +371,14 @@ html {
 #selected:hover {
   color: #00a600; }
 
+.national {
+  width: 100%; }
+
+.navTitle {
+  font-size: 17px;
+  font-family: Helvetica;
+  text-align: center; }
+
 .fix {
   display: fixed;
   position: fixed;
@@ -446,7 +454,7 @@ html {
 .picProjects {
   flex-direction: row;
   margin: 0px 0px;
-  background-image: url(bridge.jpeg);
+  background-image: url(rosette.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
