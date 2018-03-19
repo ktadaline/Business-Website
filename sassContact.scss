@@ -22,9 +22,15 @@
    // padding: 23px;
     flex-direction: row;
    // justify-content: center;
+   overflow-y: visible;
 }
 .containerMargin{
     height: 278px;
+    //flex: 1;
+}
+.container2Margin{
+    height: 100%;
+    overflow-y: scroll;
 }
 
 .containerText{
@@ -181,16 +187,19 @@ width: 100%;
     align-self: flex-start;
     border-radius: 8px;
     z-index: -1;
+    overflow: scroll;
 }
 .picProjects{
     flex-direction: row;
     margin: 0px 0px;
+    position: fixed;
     background-image: url(laptopphone3.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 z-index: 500;
 height: 100%;
+width: 100%;
 
 
 

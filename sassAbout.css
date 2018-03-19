@@ -371,6 +371,28 @@ html {
 #selected:hover {
   color: #00a600; }
 
+.sticky {
+  position: fixed;
+  top: 490px;
+  width: 100%; }
+
+.sticky + .content {
+  padding-top: 60px; }
+
+.anchornav {
+  height: 100%; }
+
+.navTitle {
+  overflow: hidden;
+  background-color: black; }
+
+.anc {
+  float: center;
+  display: inline-block;
+  color: white;
+  padding: 8px;
+  text-decoration: none; }
+
 .national {
   width: 100%; }
 

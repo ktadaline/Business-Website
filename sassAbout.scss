@@ -6,6 +6,33 @@
     color: $primary-color;
 }
 
+.sticky {
+    position: fixed;
+    top: 490px;
+    width: 100%
+  }
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  .anchornav{
+      height: 100%;
+  }
+.navTitle{
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+.anc{
+    float: center;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    text-decoration: none;
+    //background-color: rgba(0, 0, 0, 0.603);
+}
+
 .national{
     width: 100%;
 }
