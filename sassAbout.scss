@@ -8,7 +8,7 @@
 
 .sticky {
     position: fixed;
-    top: 490px;
+    top: 190px;
     width: 100%
   }
 
@@ -47,6 +47,7 @@
     font-size: 17px;
     font-family: $primary-font;
     text-align: center;
+    position: sticky;
 }
 
 .fix{
@@ -197,18 +198,6 @@ z-index: 500;
     //color: $primary-color;
 }
 
-body{
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-    background-image: url(keys.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: fixed;
-    //display: flex;
-    
-    }
 
    /* Smartphones (portrait and landscape) ----------- */
 
@@ -252,4 +241,3 @@ and (max-device-width : 480px) {
 
 
 }
-  
