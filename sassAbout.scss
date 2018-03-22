@@ -5,6 +5,10 @@
 #selected:hover{
     color: $primary-color;
 }
+.body{
+    background-image: none;
+    background-color: white;
+}
 
 .sticky {
     position: fixed;

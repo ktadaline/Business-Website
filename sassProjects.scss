@@ -1,4 +1,9 @@
 @import "flexsass.scss";
+
+.scrolldiv{
+    height: 100%;
+    //overflow-y: scroll;
+}
 #selected{
     color: $primary-color *1.2;
 }
@@ -26,7 +31,7 @@
     width: 100%;
     height: 100%;
     justify-content: flex-start;
-    overflow: scroll;
+    //overflow: scroll;
     margin: 0px;
     z-index: 90000;
     flex-direction: column;
@@ -163,11 +168,11 @@ body{
     height: 100%;
     width: 100%;
     margin: 0px;
-    background-image: url(keys.jpeg);
+    //background-image: url(keys.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: fixed;
+    overflow: scroll;
     //display: flex;
     
     }

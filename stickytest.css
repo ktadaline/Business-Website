@@ -1,13 +1,27 @@
 @import "https://fonts.googleapis.com/css?family=Open+Sans";
+#total {
+  position: static;
+  z-index: -100000; }
+
+.backimg {
+  height: 740px;
+  width: 100%;
+  margin: 0px;
+  background-image: url(coffeeNotebook2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: static; }
+
 body {
   height: 100%;
   width: 100%;
   margin: 0px;
-  background-image: url(coffeeNotebook.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: fixed; }
+  position: static;
+  overflow-y: scroll; }
 
 .headerLogo {
   float: left;
@@ -20,7 +34,6 @@ body {
   width: 100%;
   display: inline-block;
   white-space: nowrap;
-  overflow: hidden;
   margin: 0px;
   position: fixed;
   top: 0px;
@@ -68,6 +81,10 @@ body {
   top: 100px;
   left: 100px; }
 
+@media (min-width: 980px) {
+  .showContainer {
+    height: 0px; } }
+
 @media (max-width: 980px) {
   .responsive {
     display: flex;
@@ -81,7 +98,9 @@ body {
     justify-content: center;
     width: 100%;
     text-align: center;
-    z-index: 1000; }
+    z-index: 1000;
+    position: fixed;
+    top: 0px; }
   .links {
     width: 100%;
     text-align: center;
@@ -252,8 +271,8 @@ body {
 #quote {
   color: #ffffff;
   font-family: Helvetica;
-  top: 315px;
-  position: fixed;
+  top: 328px;
+  position: relative;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -265,8 +284,8 @@ body {
   color: #ffffff;
   font-family: Helvetica;
   padding: 15px 0px;
-  top: 565px;
-  position: fixed;
+  top: 261px;
+  position: relative;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -324,6 +343,8 @@ html {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .backimg {
+    height: 100%; }
   .sroub {
     font-size: 45px; }
   .container {
@@ -335,11 +356,14 @@ html {
   .manuscript {
     top: 950px;
     position: absolute;
-    overflow: scroll; }
+    overflow: scroll;
+    font-size: 30px;
+    width: 900px; }
   .showContainer {
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 688px;
     text-align: center;
     z-index: 1000; }
   .links {
@@ -357,7 +381,7 @@ html {
     text-align: center;
     padding: 35px; }
   .l {
-    font-Size: 20px;
+    font-Size: 30px;
     text-decoration: none;
     font-family: Helvetica;
     color: black;
@@ -365,44 +389,58 @@ html {
     padding: 33px;
     border-bottom: 1px solid rgba(36, 35, 35, 0.514); } }
 
-body {
+#both {
+  z-index: 9000px;
+  position: fixed;
+  width: 100%; }
+
+.mainbody {
   margin: 0;
   font-size: 28px;
   background-image: none;
   position: static; }
 
+.showContainer {
+  position: fixed; }
+
 .header {
-  background-color: #f1f1f1;
-  padding: 30px;
+  background-image: url(rosette.jpg);
+  height: 490px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   text-align: center; }
 
 #navbar {
   overflow: hidden;
-  background-color: #333; }
+  background-color: rgba(0, 0, 0, 0.88);
+  text-align: center;
+  padding: 3px; }
 
 #navbar a {
-  float: left;
-  display: block;
+  float: center;
+  display: inline block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px;
   text-decoration: none;
-  font-size: 17px; }
+  font-size: 17px;
+  font-family: Helvetica; }
 
 #navbar a:hover {
   background-color: #ddd;
   color: black; }
 
 #navbar a.active {
-  background-color: #4CAF50;
-  color: white; }
+  color: #4CAF50; }
 
 .content {
   padding: 16px; }
 
 .sticky {
   position: fixed;
-  top: 400px;
+  top: 115px;
   width: 100%; }
 
 .sticky + .content {

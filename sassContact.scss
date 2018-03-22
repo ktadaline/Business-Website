@@ -22,15 +22,15 @@
    // padding: 23px;
     flex-direction: row;
    // justify-content: center;
-   overflow-y: visible;
+  // overflow-y: visible;
 }
 .containerMargin{
     height: 278px;
     //flex: 1;
 }
 .container2Margin{
-    height: 100%;
-    overflow-y: scroll;
+    //height: 100%;
+   // overflow-y: scroll;
 }
 
 .containerText{
@@ -187,18 +187,18 @@ width: 100%;
     align-self: flex-start;
     border-radius: 8px;
     z-index: -1;
-    overflow: scroll;
+    //overflow: scroll;
 }
 .picProjects{
     flex-direction: row;
     margin: 0px 0px;
-    position: fixed;
+   // position: fixed;
     background-image: url(laptopphone3.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 z-index: 500;
-height: 100%;
+height: 770px;
 width: 100%;
 
 
@@ -253,6 +253,13 @@ width: 100%;
     //font-family: $sroub-font;
     //color: $primary-color;
 }
+.scrollDiv{
+    //overflow-y: scroll;
+    position: static;
+    height: 100%;
+   width: 100%;
+    z-index: 10000000;
+}
 
 body{
     height: 100%;
@@ -262,7 +269,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: fixed;
+    position: static;
+    overflow-y: scroll;
     //display: flex;
     
     }
@@ -272,6 +280,10 @@ body{
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
+
+.picProjects{
+    height: 100%;
+}
 
 .containerMargin{
     height: 600px;

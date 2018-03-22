@@ -6,15 +6,31 @@ $primary-font: Helvetica;
 $sroub-font: impact;
 $title-font: Georgia, 'Times New Roman', Times, serif;
 
+#total{
+    position: static;
+    z-index: -100000;
+}
+
+.backimg{
+    height: 740px;
+    width: 100%;
+    margin: 0px;
+    background-image: url(coffeeNotebook2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: static;
+}
 body{
 height: 100%;
 width: 100%;
 margin: 0px;
-background-image: url(coffeeNotebook.jpeg);
+//background-image: url(coffeeNotebook.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-position: fixed;
+position: static;
+overflow-y: scroll;
 //display: flex;
 
 }
@@ -35,7 +51,7 @@ position: fixed;
     //display: flex;
     //justify-content: space-between;
     white-space: nowrap;
-    overflow: hidden;
+    //overflow: hidden;
     margin: 0px;
    // padding: 48px 75px;
     position: fixed;
@@ -103,6 +119,12 @@ padding: 25px;
     left:100px;
 }
 
+@media(min-width: 980px){
+    .showContainer{
+        height: 0px;
+    }
+}
+
 
 @media(max-width: 980px){
     .responsive{
@@ -124,6 +146,8 @@ padding: 25px;
        // align-items: center;
        text-align: center;
        z-index: 1000;
+       position: fixed;
+       top: 0px;
       // align-content: center;
     }
     .links{
@@ -340,8 +364,8 @@ height: 100%;
 #quote{
 color: $third-color;
 font-family: $primary-font;
-top: 315px;
-position: fixed;
+top: 328px;
+position: relative;
 left:50%;
 transform: translate(-50%, -50%);
 text-align: center;
@@ -353,8 +377,8 @@ font-weight: 750;
     color: $third-color;
     font-family: $primary-font;
     padding: 15px 0px;
-    top: 565px;
-    position: fixed;
+    top: 261px;
+    position: relative;
     left:50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -425,6 +449,9 @@ html{
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 
+    .backimg{
+        height: 100%;
+    }
     .sroub{
         font-size: 45px;
     }
@@ -435,11 +462,15 @@ and (max-device-width : 480px) {
             top: 700px;
             position: absolute;
             overflow: scroll;
+           
+
                 }
             .manuscript{
                 top: 950px;
                 position: absolute;
                 overflow: scroll;
+                font-size: 30px;
+                width: 900px;
                 }
 
                 .showContainer{
@@ -449,6 +480,7 @@ and (max-device-width : 480px) {
                    //background-color: rgba(0, 0, 0, 0.432);
                     justify-content: center; //controls menu alighment
                     width: 100%;
+                    height: 688px;
                    // align-items: center;
                    text-align: center;
                    z-index: 1000;
@@ -491,7 +523,7 @@ and (max-device-width : 480px) {
                 }
                 .l{
                    // flex: 1;
-                    font-Size: 20px;
+                    font-Size: 30px;
                     text-decoration: none;
                     font-family: $primary-font;
                     color: $second-color;

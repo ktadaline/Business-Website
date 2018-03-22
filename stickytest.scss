@@ -1,31 +1,50 @@
 @import "flexsass.scss";
 
-body {
+#both{
+    z-index: 9000px;
+    position: fixed;
+    width: 100%;
+}
+
+.mainbody {
   margin: 0;
   font-size: 28px;
   background-image: none;
   position: static;
 }
 
+.showContainer{
+    position: fixed;
+}
+
+
 .header {
-  background-color: #f1f1f1;
-  padding: 30px;
+  //background-color: #f1f1f1;
+  background-image: url(rosette.jpg);
+  height: 490px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   text-align: center;
 }
 
 #navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.88);
+  text-align: center;
+  padding: 3px;
 }
 
 #navbar a {
-  float: left;
-  display: block;
+  float: center;
+  display: inline block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px;
   text-decoration: none;
   font-size: 17px;
+  font-family: $primary-font;
 }
 
 #navbar a:hover {
@@ -34,8 +53,7 @@ body {
 }
 
 #navbar a.active {
-  background-color: #4CAF50;
-  color: white;
+  color: #4CAF50;
 }
 
 .content {
@@ -44,10 +62,10 @@ body {
 
 .sticky {
   position: fixed;
-  top: 400px;
+  top: 115px;
   width: 100%;
 }
 
 .sticky + .content {
-  padding-top: 60px;
+ padding-top: 60px;
 }
