@@ -537,4 +537,6 @@ body {
   #projectExamplesText1Title, #projectExamplesText2Title, #projectExamplesText3Title {
     font-size: 45px; }
   .topSPText, .projectsText {
-    font-size: 35px; } }
+    font-size: 35px; }
+  #linksId {
+    width: 100%; } }

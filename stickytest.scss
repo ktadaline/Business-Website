@@ -1,7 +1,30 @@
 @import "flexsass.scss";
 
+
+
+
+
+#both {
+    width: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9000;
+    border-bottom: 1px solid #d4d4d4;
+    background-color: #ffffff;
+}
+#selected{
+    color: $primary-color *1.2;
+}
+#selected:hover{
+    color: $primary-color;
+}
+
 #both{
-    z-index: 9000px;
+   // z-index: 9000px;
     position: fixed;
     width: 100%;
 }
@@ -31,15 +54,16 @@
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.88);
+  background-color: rgba(255, 255, 255, 0.88);
   text-align: center;
   padding: 3px;
+  border-bottom: 1px solid rgba(36, 35, 35, 0.514); 
 }
 
-#navbar a {
+#navbar a  {
   float: center;
   display: inline block;
-  color: #f2f2f2;
+  color: #000000;
   text-align: center;
   padding: 10px;
   text-decoration: none;
@@ -48,8 +72,8 @@
 }
 
 #navbar a:hover {
-  background-color: #ddd;
-  color: black;
+  //background-color: #ddd;
+  color: gray;
 }
 
 #navbar a.active {
@@ -68,4 +92,20 @@
 
 .sticky + .content {
  padding-top: 60px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .navResize{
+
+    }
+    
+    .container {
+
+    }
+    .sticky{
+    top: 175px;
+    }
 }

@@ -390,7 +390,24 @@ html {
     border-bottom: 1px solid rgba(36, 35, 35, 0.514); } }
 
 #both {
-  z-index: 9000px;
+  width: 100%;
+  display: inline-block;
+  white-space: nowrap;
+  margin: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 9000;
+  border-bottom: 1px solid #d4d4d4;
+  background-color: #ffffff; }
+
+#selected {
+  color: #00c800; }
+
+#selected:hover {
+  color: #00a600; }
+
+#both {
   position: fixed;
   width: 100%; }
 
@@ -414,14 +431,15 @@ html {
 
 #navbar {
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.88);
+  background-color: rgba(255, 255, 255, 0.88);
   text-align: center;
-  padding: 3px; }
+  padding: 3px;
+  border-bottom: 1px solid rgba(36, 35, 35, 0.514); }
 
 #navbar a {
   float: center;
   display: inline block;
-  color: #f2f2f2;
+  color: #000000;
   text-align: center;
   padding: 10px;
   text-decoration: none;
@@ -429,8 +447,7 @@ html {
   font-family: Helvetica; }
 
 #navbar a:hover {
-  background-color: #ddd;
-  color: black; }
+  color: gray; }
 
 #navbar a.active {
   color: #4CAF50; }
@@ -445,3 +462,8 @@ html {
 
 .sticky + .content {
   padding-top: 60px; }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .sticky {
+    top: 175px; } }
