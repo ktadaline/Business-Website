@@ -389,6 +389,88 @@ html {
     padding: 33px;
     border-bottom: 1px solid rgba(36, 35, 35, 0.514); } }
 
+.anchor {
+  display: block;
+  height: 208px;
+  /*same height as header*/
+  margin-top: -208px;
+  /*same height as header*/
+  visibility: hidden; }
+
+.nationalImpact {
+  text-align: center;
+  width: 100%;
+  margin: 0px; }
+
+#niTitle {
+  font-family: Helvetica;
+  font-size: 60px;
+  font-weight: bolder;
+  margin: 0px auto;
+  width: 70%; }
+
+#niMap {
+  margin: 0px auto;
+  width: 70%; }
+
+.national {
+  width: 100%; }
+
+.principal {
+  font-family: Helvetica;
+  width: 100%;
+  margin: 0px;
+  background-color: #f3f3f3; }
+
+.pTitleBlock {
+  background-color: black;
+  background-color: #00a600;
+  color: white;
+  margin: 0px;
+  padding: 1px; }
+
+.bBullet {
+  margin: 25px;
+  padding: 5px; }
+
+#brianTitle {
+  margin: 3px auto;
+  width: 70%;
+  font-size: 60px;
+  font-weight: bolder; }
+
+.briansection {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  justify-content: center; }
+
+.headshot {
+  width: 75%;
+  margin: 50px; }
+
+#brian {
+  margin: 0px auto;
+  width: 50%; }
+
+.InvisibleHandcuffs {
+  width: 100%;
+  margin: 0px; }
+
+.amz {
+  width: 80px; }
+
+.ihTXT {
+  white-space: pre-line; }
+
+.NYS {
+  width: 100%;
+  margin: 0px; }
+
+.FITI {
+  width: 100%;
+  margin: 0px; }
+
 #both {
   width: 100%;
   display: inline-block;
