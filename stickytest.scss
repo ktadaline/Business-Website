@@ -102,7 +102,7 @@ justify-content: flex-start;
 .briansection{
   display: flex;
   flex-direction: row;
-  margin: 50px;
+  margin: 0px;
   //width: 70%;
   justify-content: center;
   margin-bottom: 0em;
@@ -124,6 +124,9 @@ justify-content: flex-start;
   //white-space: pre-line;
   margin: 0px auto;
   width: 50%;
+}
+#ed{
+  white-space: pre-line;
 }
 
 .ihTitleBlock{

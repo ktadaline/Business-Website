@@ -465,7 +465,7 @@ html {
 .briansection {
   display: flex;
   flex-direction: row;
-  margin: 50px;
+  margin: 0px;
   justify-content: center;
   margin-bottom: 0em; }
 
@@ -479,6 +479,9 @@ html {
 #brian {
   margin: 0px auto;
   width: 50%; }
+
+#ed {
+  white-space: pre-line; }
 
 .ihTitleBlock {
   background-color: white;
