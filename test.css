@@ -394,14 +394,15 @@ html {
 .anchor {
   display: block;
   height: 208px;
+  /*same height as header*/
   margin-top: -208px;
+  /*same height as header*/
   visibility: hidden; }
 
 .nationalImpact {
   text-align: center;
   width: 100%;
-  margin: 0px;
-  border-bottom: 1px solid #eaeaea; }
+  margin: 0px; }
 
 #niTitle {
   font-family: Helvetica;
@@ -421,143 +422,48 @@ html {
   font-family: Helvetica;
   width: 100%;
   margin: 0px;
-  background-color: white;
-  border-bottom: 1px solid #eaeaea; }
+  background-color: #f3f3f3; }
 
 .pTitleBlock {
-  background-color: white;
-  color: black;
+  background-color: black;
+  background-color: #00a600;
+  color: white;
   margin: 0px;
-  padding: 8px;
-  display: flex;
-  text-align: right;
-  justify-content: center; }
-
-.titleImg {
-  justify-content: flex-start; }
-
-.circleheadshot {
-  width: 188px;
-  margin: 5px 38px; }
+  padding: 1px; }
 
 .bBullet {
   margin: 25px;
-  padding: 5px;
-  font-size: 20px; }
-
-.titleWords {
-  justify-content: center;
-  margin: auto 0px; }
+  padding: 5px; }
 
 #brianTitle {
-  margin: 0px 28px;
+  margin: 3px auto;
   width: 70%;
   font-size: 60px;
-  font-weight: bolder;
-  display: inline;
-  overflow: hidden;
-  white-space: nowrap; }
-
-#principalTitle {
-  font-size: 40px;
-  margin: 12px 33px; }
+  font-weight: bolder; }
 
 .briansection {
   display: flex;
   flex-direction: row;
   margin: 50px;
-  justify-content: center;
-  margin-bottom: 0em; }
-
-.imgsection {
-  text-align: center; }
+  justify-content: center; }
 
 .headshot {
-  width: 50%;
+  width: 75%;
   margin: 50px; }
 
 #brian {
   margin: 0px auto;
   width: 50%; }
 
-.ihTitleBlock {
-  background-color: white;
-  color: black;
-  font-size: 60px;
-  text-align: center;
-  font-family: Helvetica;
-  padding: 28px; }
-
-#ihTitle {
-  margin: 8px;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  font-weight: bolder; }
-
 .InvisibleHandcuffs {
-  margin: 0px 0px;
-  display: flex;
-  flex-direction: row;
-  text-align: left;
-  justify-content: center;
-  background-color: white;
-  font-family: Helvetica;
-  border-bottom: 1px solid #eaeaea; }
-
-.nysml {
-  margin: 0px 0px;
-  display: flex;
-  flex-direction: row;
-  text-align: left;
-  justify-content: space-evenly;
-  background-color: white;
-  font-family: Helvetica;
-  border-bottom: 1px solid #eaeaea; }
-
-.containIH {
-  display: flex;
-  width: 55%; }
-
-.ihimg {
-  flex: 1;
-  justify-content: space-between;
-  margin: 30px;
-  display: flex;
-  text-align: center;
-  flex-direction: column; }
-
-.ihabout {
-  flex: 2;
-  margin: 30px;
-  justify-content: space-evenly; }
-
-.ihcover {
-  width: 100%; }
+  width: 100%;
+  margin: 0px; }
 
 .amz {
-  width: 100px;
-  padding: 10px;
-  text-align: center;
-  justify-content: center;
-  margin: auto;
-  border: 1px solid black;
-  border-radius: 5px; }
-
-.pdf {
-  width: 100px;
-  padding: 8px;
-  text-align: center;
-  justify-content: center;
-  margin: auto;
-  border: 1px solid black;
-  border-radius: 5px; }
-
-.IHbook {
-  white-space: pre-line; }
+  width: 80px; }
 
 .ihTXT {
-  white-space: pre-line;
-  margin: 0px; }
+  white-space: pre-line; }
 
 .NYS {
   width: 100%;
@@ -565,39 +471,33 @@ html {
 
 .FITI {
   width: 100%;
-  margin: 0px;
-  border-bottom: 1px solid #eaeaea; }
+  margin: 0px; }
 
-/*
 #both {
-    width: 100%;
-    display: inline-block;
-    white-space: nowrap;
-    margin: 0px;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 9000;
-    border-bottom: 1px solid #d4d4d4;
-    background-color: #ffffff;
-}
-*/
+  width: 100%;
+  display: inline-block;
+  white-space: nowrap;
+  margin: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 9000;
+  border-bottom: 1px solid #d4d4d4;
+  background-color: #ffffff; }
+
 #selected {
   color: #00c800; }
 
 #selected:hover {
   color: #00a600; }
 
-/*
-#both{
-   // z-index: 9000px;
-    position: fixed;
-    width: 100%;
-}
-*/
+#both {
+  position: fixed;
+  width: 100%; }
+
 .mainbody {
   margin: 0;
-  font-size: 20px;
+  font-size: 28px;
   background-image: none;
   position: static; }
 
@@ -631,7 +531,7 @@ html {
   font-family: Helvetica; }
 
 #navbar a:hover {
-  color: #00a600; }
+  color: gray; }
 
 #navbar a.active {
   color: #4CAF50; }

@@ -2,17 +2,15 @@
 
 .anchor{
   display: block;
-  height: 208px; //same height as header
-  margin-top: -208px; //same height as header
+  height: 208px; /*same height as header*/
+  margin-top: -208px; /*same height as header*/
   visibility: hidden;
 }
-
 
 .nationalImpact{
   text-align: center;
   width: 100%;
   margin: 0px;
-  border-bottom: 1px solid #eaeaea;
 }
 
 #niTitle{
@@ -43,33 +41,20 @@ width: 100%;
   font-family: $primary-font;
   width: 100%;
   margin: 0px;
-  background-color: white;
-  border-bottom: 1px solid #eaeaea;
+  background-color: #f3f3f3;
 }
 
 .pTitleBlock{
- background-color:white;
- //background-color: $primary-color;
-  color: black;
+ background-color: black;
+ background-color: $primary-color;
+  color: white;
   margin: 0px;
-  padding: 8px;  
-  display: flex;
-  text-align: right;
-  justify-content: center;
-}
-
-.titleImg{
-justify-content: flex-start;
-}
-.circleheadshot{
-  width: 188px;
-  margin: 5px 38px;
+  padding: 1px;  
 }
 
 .bBullet{
  margin: 25px;
   padding: 5px;
-  font-size: 20px;
   //margin-top: 28px;;
   //margin-bottom: 0;
  // background-color: white;
@@ -77,47 +62,29 @@ justify-content: flex-start;
  //line-height: 1em;
 }
 
-.titleWords{
-  justify-content: center;
-  margin: auto 0px;
-}
+
 
 #brianTitle{
-  //margin: 8px auto;
-
-  margin: 0px 28px;
+  margin: 3px auto;
   width: 70%;
   font-size: 60px;
   font-weight: bolder;
-  display: inline;
-  overflow: hidden;
-  white-space: nowrap;
+
   //background-color: black;
   //color: white;
 }
-#principalTitle{
-  font-size: 40px;
-  margin: 12px 33px;
-}
+
 .briansection{
   display: flex;
   flex-direction: row;
   margin: 50px;
   //width: 70%;
   justify-content: center;
-  margin-bottom: 0em;
-  
 
 }
-.imgsection{
-  text-align: center;
-}
-
 .headshot{
-  width: 50%;
+  width: 75%;
   margin: 50px;
-  //justify-content: center;
-
 }
 
 #brian{
@@ -126,114 +93,29 @@ justify-content: flex-start;
   width: 50%;
 }
 
-.ihTitleBlock{
-  background-color: white;
-  color:black;
-  font-size: 60px;
-  text-align: center;
-  font-family: $primary-font;
-  padding: 28px;
-}
-
-#ihTitle{
-  margin: 8px;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  font-weight: bolder;
-}
-
 .InvisibleHandcuffs{
-//width: 70%;
-margin: 0px 0px;
-display: flex;
-flex-direction: row;
-text-align: left;
-justify-content: center;
-background-color: white;
-font-family: $primary-font;
-border-bottom: 1px solid #eaeaea;
+width: 100%;
+margin: 0px;
 }
-.nysml{
-  //width: 70%;
-  margin: 0px 0px;
-  display: flex;
-  flex-direction: row;
-  text-align: left;
-  justify-content: space-evenly;
-  background-color: rgb(255, 255, 255);
-  font-family: $primary-font;
-  border-bottom: 1px solid #eaeaea;
-  }
-
-
-.containIH{
-display: flex;
-width: 55%;
-}
-
-.ihcover{
-//width: 75%;
-//margin: 75px;
-}
-.ihimg{
-flex:1;
-justify-content: space-between;
-margin: 30px;
-display: flex;
-text-align: center;
-flex-direction: column;
-}
-.ihabout{
-flex:2;
-margin: 30px;
-justify-content: space-evenly;
-}
-
-.ihcover{
-  width:100%;
-}
-
 .amz{
-  width: 100px;
-  padding: 10px;
-  text-align: center;
-  justify-content: center;
-  margin: auto;
-  border: 1px solid black;
-  border-radius: 5px;
-
-}
-.pdf{
-  width: 100px;
-  padding: 8px;
-  text-align: center;
-  justify-content: center;
-  margin: auto;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-.IHbook{
-white-space: pre-line;
+  width: 80px;
 }
 
 
 .ihTXT{
   white-space: pre-line;
-  margin: 0px;
 }
 
 .NYS{
   width: 100%;
   margin:0px;
-
   }
 .FITI{
 width: 100%;
 margin: 0px;
-border-bottom: 1px solid #eaeaea;
 
 }
-/*
+
 #both {
     width: 100%;
     display: inline-block;
@@ -246,23 +128,22 @@ border-bottom: 1px solid #eaeaea;
     border-bottom: 1px solid #d4d4d4;
     background-color: #ffffff;
 }
-*/
 #selected{
     color: $primary-color *1.2;
 }
 #selected:hover{
     color: $primary-color;
 }
-/*
+
 #both{
    // z-index: 9000px;
     position: fixed;
     width: 100%;
 }
-*/
+
 .mainbody {
   margin: 0;
-  font-size: 20px;
+  font-size: 28px;
   background-image: none;
   position: static;
 }
@@ -304,7 +185,7 @@ border-bottom: 1px solid #eaeaea;
 
 #navbar a:hover {
   //background-color: #ddd;
-  color: $primary-color;
+  color: gray;
 }
 
 #navbar a.active {
@@ -340,3 +221,4 @@ and (max-device-width : 480px) {
     top: 175px;
     }
 }
+
