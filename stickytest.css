@@ -401,7 +401,7 @@ html {
   text-align: center;
   width: 100%;
   margin: 0px;
-  border-bottom: 1px solid #eaeaea; }
+  border-bottom: 88px solid #eaeaea; }
 
 #niTitle {
   font-family: Helvetica;
@@ -422,12 +422,13 @@ html {
   width: 100%;
   margin: 0px;
   background-color: white;
-  border-bottom: 1px solid #eaeaea; }
+  border-bottom: 88px solid #eaeaea; }
 
 .pTitleBlock {
   background-color: white;
   color: black;
   margin: 0px;
+  margin-top: 63px;
   padding: 8px;
   display: flex;
   text-align: right;
@@ -441,9 +442,21 @@ html {
   margin: 5px 38px; }
 
 .bBullet {
-  margin: 25px;
+  margin: 10px;
   padding: 5px;
-  font-size: 20px; }
+  font-size: 18px;
+  display: flex;
+  flex-direction: row; }
+
+.green {
+  width: 60px;
+  height: 60px; }
+
+.princtext {
+  flex: 1; }
+
+.princmargin {
+  width: 28px; }
 
 .titleWords {
   justify-content: center;
@@ -489,7 +502,8 @@ html {
   font-size: 60px;
   text-align: center;
   font-family: Helvetica;
-  padding: 28px; }
+  padding: 28px;
+  margin-top: 50px; }
 
 #ihTitle {
   margin: 8px;
@@ -505,7 +519,7 @@ html {
   justify-content: center;
   background-color: white;
   font-family: Helvetica;
-  border-bottom: 1px solid #eaeaea; }
+  border-bottom: 88px solid #eaeaea; }
 
 .nysml {
   margin: 0px 0px;
@@ -515,7 +529,7 @@ html {
   justify-content: space-evenly;
   background-color: white;
   font-family: Helvetica;
-  border-bottom: 1px solid #eaeaea; }
+  border-bottom: 88px solid #eaeaea; }
 
 .containIH {
   display: flex;
