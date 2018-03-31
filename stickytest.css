@@ -300,6 +300,9 @@ body {
 .manuscript:hover {
   background-color: rgba(0, 0, 0, 0.4); }
 
+#linktoman {
+  text-decoration: none; }
+
 #circle {
   top: 580px;
   position: fixed;
@@ -391,24 +394,43 @@ html {
   #test {
     color: red; } }
 
+.headertext {
+  display: flex;
+  height: 490px;
+  background-color: rgba(0, 0, 0, 0.212); }
+
+#ht {
+  margin: 228px auto;
+  color: white;
+  font-family: Helvetica;
+  font-size: 128px;
+  font-weight: bolder; }
+
 .anchor {
   display: block;
-  height: 208px;
-  margin-top: -208px;
+  height: 88px;
+  margin-top: -88px;
+  visibility: hidden; }
+
+#NI {
+  display: block;
+  height: 18px;
+  margin-top: -18px;
   visibility: hidden; }
 
 .nationalImpact {
   text-align: center;
   width: 100%;
   margin: 0px;
+  border-top: 88px solid white;
   border-bottom: 88px solid #eaeaea; }
 
 #niTitle {
   font-family: Helvetica;
   font-size: 60px;
-  font-weight: bolder;
+  font-weight: bold;
   margin: 0px auto;
-  width: 70%; }
+  width: 100%; }
 
 #niMap {
   margin: 0px auto;
@@ -544,7 +566,7 @@ html {
   flex-direction: column; }
 
 .ihabout {
-  flex: 2;
+  flex: 3;
   margin: 30px;
   justify-content: space-evenly; }
 
@@ -653,6 +675,9 @@ html {
 #navbar a.active {
   color: #4CAF50; }
 
+#navbreak {
+  display: none; }
+
 .content {
   padding: 16px; }
 
@@ -665,6 +690,90 @@ html {
   padding-top: 60px; }
 
 /* Smartphones (portrait and landscape) ----------- */
+@media (max-width: 980px) {
+  #navbar a {
+    font-size: 14px; }
+  #niMap {
+    width: 100%; }
+  body {
+    overflow-x: hidden; }
+  #brian {
+    width: 90%; }
+  .containIH {
+    width: 100%; } }
+
+@media (max-width: 815px) {
+  #navbar a {
+    font-size: 12px; }
+  body {
+    overflow-x: hidden; } }
+
+@media (max-width: 715px) {
+  #navbar a {
+    font-size: 10px; }
+  body {
+    overflow-x: hidden; } }
+
+@media (max-width: 622px) {
+  #navbar a {
+    font-size: 10px;
+    padding: 3px; }
+  body {
+    overflow-x: hidden; } }
+
+@media (max-width: 569px) {
+  #navbar a {
+    font-size: 9px;
+    margin: 0px; }
+  #navbreak {
+    width: 100%;
+    display: block; }
+  body {
+    overflow-x: hidden; } }
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .anchor {
+    display: block;
+    height: 308px;
+    margin-top: -308px;
+    visibility: hidden; }
+  .breaks {
+    height: 0px; }
+  .sticky + .breaks {
+    height: 138px; }
+  #niTitle {
+    width: 100%;
+    font-size: 48px;
+    display: inline-block; }
+  #niMap {
+    width: 100%; }
+  .navResize {
+    font-size: 40px; }
+  #navbar {
+    line-height: 55px;
+    padding: 12px; }
+  #navbar a {
+    font-size: 28px;
+    margin: 28px; }
   .sticky {
-    top: 175px; } }
+    top: 175px; }
+  .nationalImpact {
+    border-top: 88px solid #eaeaea; }
+  .bBullet {
+    font-size: 33px; }
+  #brian {
+    width: 90%;
+    font-size: 28px; }
+  .green {
+    width: 80px;
+    height: 80px; }
+  .containIH {
+    width: 100%;
+    font-size: 38px; }
+  #ht {
+    margin: 258px auto; }
+  #NI {
+    display: block;
+    height: 208px;
+    margin-top: -208px;
+    visibility: hidden; } }

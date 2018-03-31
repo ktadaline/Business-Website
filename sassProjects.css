@@ -300,6 +300,9 @@ body {
 .manuscript:hover {
   background-color: rgba(0, 0, 0, 0.4); }
 
+#linktoman {
+  text-decoration: none; }
+
 #circle {
   top: 580px;
   position: fixed;
@@ -524,7 +527,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  overflow-x: hidden; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {

@@ -300,6 +300,9 @@ body {
 .manuscript:hover {
   background-color: rgba(0, 0, 0, 0.4); }
 
+#linktoman {
+  text-decoration: none; }
+
 #circle {
   top: 580px;
   position: fixed;
