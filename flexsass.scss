@@ -31,6 +31,7 @@ background-size: cover;
 background-position: center;
 position: static;
 overflow-y: scroll;
+overflow-x: hidden;
 //display: flex;
 
 }
@@ -364,7 +365,7 @@ height: 100%;
 #quote{
 color: $third-color;
 font-family: $primary-font;
-top: 328px;
+top: 368px;
 position: relative;
 left:50%;
 transform: translate(-50%, -50%);
@@ -377,7 +378,7 @@ font-weight: 750;
     color: $third-color;
     font-family: $primary-font;
     padding: 15px 0px;
-    top: 261px;
+    top: 288px;
     position: relative;
     left:50%;
     transform: translate(-50%, -50%);
