@@ -734,8 +734,8 @@ html {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .anchor {
     display: block;
-    height: 308px;
-    margin-top: -308px;
+    height: 333px;
+    margin-top: -333px;
     visibility: hidden; }
   .breaks {
     height: 0px; }
@@ -774,6 +774,6 @@ html {
     margin: 258px auto; }
   #NI {
     display: block;
-    height: 208px;
-    margin-top: -208px;
+    height: 308px;
+    margin-top: -308px;
     visibility: hidden; } }
