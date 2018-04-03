@@ -755,7 +755,8 @@ html {
     padding: 12px; }
   #navbar a {
     font-size: 28px;
-    margin: 28px; }
+    margin: 28px;
+    padding: 0px; }
   .sticky {
     top: 175px; }
   .nationalImpact {
