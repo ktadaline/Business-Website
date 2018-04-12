@@ -247,7 +247,7 @@ body {
   margin: auto; }
 
 .sheeroverlay {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.233));
+  background: linear-gradient(rgba(255, 255, 255, 0.79), rgba(99, 99, 99, 0.58));
   height: 100%;
   width: 100%; }
 
@@ -298,7 +298,7 @@ body {
   font-size: 69px; }
 
 .manuscript {
-  color: #ffffff;
+  color: #737373;
   font-family: Helvetica;
   padding: 15px 0px;
   top: 333px;
@@ -308,14 +308,14 @@ body {
   text-align: center;
   width: 718px;
   font-size: 20px;
-  background-color: rgba(0, 0, 0, 0.514);
-  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.614);
+  border-radius: 5px;
   text-decoration: none;
   font-style: italic;
   cursor: pointer; }
 
 .manuscript:hover {
-  background-color: rgba(0, 0, 0, 0.4); }
+  background-color: rgba(255, 255, 255, 0.4); }
 
 #linktoman {
   text-decoration: none; }

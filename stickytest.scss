@@ -95,9 +95,9 @@ justify-content: flex-start;
 }
 
 .bBullet{
- margin: 10px;
-  padding: 5px;
-  font-size: 18px;
+// margin: 10px;
+  //padding: 5px;
+  font-size: 17.5px;
   //margin-top: 28px;;
   //margin-bottom: 0;
  // background-color: white;
@@ -110,6 +110,11 @@ justify-content: flex-start;
 .green{
   width: 60px;
  height: 60px;
+}
+
+.princtitle{
+  font-weight: bold;
+  margin: 8px;
 }
 .princtext{
 flex: 1;
@@ -366,12 +371,12 @@ border-bottom: 1px solid #eaeaea;
 
 .sticky {
   position: fixed;
-  top: 115px;
+  top: 150px;
   width: 100%;
 }
 
 .sticky + .content {
-padding-top: 60px;
+padding-top: 40px;
 }
 
 /* Smartphones (portrait and landscape) ----------- */

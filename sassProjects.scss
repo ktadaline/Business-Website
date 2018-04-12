@@ -1,5 +1,22 @@
 @import "flexsass.scss";
 
+.nationalImpact{
+   // text-align: center;
+    width: 100%;
+    margin: 0px;
+    border-top: 88px solid white;
+    //border-bottom: 88px solid #eaeaea;
+  }
+
+  #niMap{
+    margin: 0px auto;
+  width: 100%;
+  text-align: center;
+  }
+  .national{
+    width: 100%;
+}
+
 .scrolldiv{
     height: 100%;
     //overflow-y: scroll;
@@ -155,7 +172,7 @@ z-index: 500;
 
 
 #projectExamplesText1Title{ 
-    font-size: 35px;
+    font-size: 31px;
     font-weight: bold;
     text-align: left;
    margin: 0px;
@@ -163,7 +180,7 @@ z-index: 500;
    //color: $primary-color;
 }
 #projectExamplesText2Title, #projectExamplesText3Title{
-    font-size: 35px;
+    font-size: 31px;
     text-align: left;
     font-family: $primary-font;
     font-weight: bold;

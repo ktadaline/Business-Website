@@ -345,10 +345,14 @@ height: 100%;
 }
 
 .sheeroverlay{
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.233));
-    
-   // :rgba(0, 0, 0, 0.5);
-    height:100%;
+    //background: linear-gradient(#abecd699, #fbed9691);
+   // background: linear-gradient(#00000061, #805e7f91);
+    //background: linear-gradient(rgba(0, 0, 0, 0.3803921568627451), #805e7f91);
+  //  background: linear-gradient(hsla(0, 0%, 0%, 0.388), hsla(302, 15%, 44%, 0.569));
+  //background: linear-gradient(rgba(255, 255, 255, 0.79), rgba(158, 216, 160, 0.52));
+  background: linear-gradient(hsla(0, 0%, 100%, 0.79), hsla(0, 0%, 39%, 0.58));
+  
+  height:100%;
     width: 100%;
 }
 
@@ -381,7 +385,8 @@ height: 100%;
 */
 
 #quote{
-color: rgb(255, 255, 255);
+//color: rgb(255, 255, 255);
+color: white;
 //background-color: rgba(0, 0, 0, 0.37);
 font-family: $primary-font;
 top: 288px;
@@ -404,7 +409,7 @@ font-size: 69px;
 }
 
 .manuscript{
-    color: $third-color;
+    color: #737373;
     font-family: $primary-font;
     padding: 15px 0px;
     top: 333px;
@@ -415,14 +420,15 @@ font-size: 69px;
     width: 718px;
     font-size: 20px;
     //border: 1.5px solid hsla(0, 0%, 100%, 0.747);
-    background-color: rgba(0, 0, 0, 0.514);
-    border-radius: 50px;
+   // background: linear-gradient(rgba(149, 247, 174, 0.8), rgba(0, 0, 0, 0));
+    background-color: rgba(255, 255, 255, 0.614);
+    border-radius: 5px;
    text-decoration: none;
    font-style: italic;
    cursor: pointer;
 }
 .manuscript:hover{
-    background-color:  hsla(0, 0%, 0%, 0.4); 
+    background-color:  hsla(0, 0%, 100%, 0.4); 
 }
 
 #linktoman{
