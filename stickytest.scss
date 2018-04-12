@@ -9,7 +9,7 @@ background-color: rgba(0, 0, 0, 0.212);
 
 #ht{
   //margin-top: 100px;
-  margin: 228px auto; 
+  margin: 258px auto; 
   color: white;
   font-family: $primary-font;
   font-size: 128px;
@@ -190,6 +190,20 @@ flex: 1;
   margin-top: 0em;
   margin-bottom: 0em;
   font-weight: bolder;
+  font-size: 33px;
+  text-align: center;
+}
+#booktitle{
+margin: 0px;
+}
+#subtitle{
+font-size: 26px;
+margin: 0px;
+}
+#subsubtitle{
+  font-size: 20px;
+  font-weight: normal;
+  margin:0px;
 }
 
 .InvisibleHandcuffs{
@@ -218,7 +232,7 @@ border-bottom:88px solid #eaeaea;
 
 .containIH{
 display: flex;
-width: 55%;
+width: 73%;
 }
 
 .ihcover{
@@ -226,7 +240,7 @@ width: 55%;
 //margin: 75px;
 }
 .ihimg{
-flex:1;
+flex:2;
 justify-content: space-between;
 margin: 30px;
 display: flex;
@@ -235,7 +249,7 @@ flex-direction: column;
 }
 .ihabout{
 flex:3;
-margin: 30px;
+margin: 0px 30px;
 justify-content: space-evenly;
 }
 
@@ -264,6 +278,7 @@ justify-content: space-evenly;
 }
 .IHbook{
 white-space: pre-line;
+text-align: center;
 }
 
 
@@ -324,7 +339,7 @@ border-bottom: 1px solid #eaeaea;
 
 .header {
   //background-color: #f1f1f1;
-  background-image: url(rosette.jpg);
+  background-image: url(bark.jpg);
   height: 490px;
   width: 100%;
   background-repeat: no-repeat;

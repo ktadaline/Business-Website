@@ -509,7 +509,7 @@ html {
 .picProjects {
   flex-direction: row;
   margin: 0px 0px;
-  background-image: url(sage.jpeg);
+  background-image: url(grainwood.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -528,12 +528,12 @@ html {
 .pt {
   z-index: 100;
   margin-left: 18%;
-  margin-top: 128px; }
+  margin-top: 178px; }
 
 #projectsTitle {
   color: white;
   font-family: Helvetica;
-  font-size: 158px;
+  font-size: 128px;
   font-weight: bolder;
   margin: 0px;
   text-align: left;
