@@ -247,7 +247,7 @@ body {
   margin: auto; }
 
 .sheeroverlay {
-  background: linear-gradient(rgba(255, 255, 255, 0.79), rgba(99, 99, 99, 0.58));
+  background: linear-gradient(rgba(115, 115, 115, 0.851), rgba(99, 99, 99, 0.58));
   height: 100%;
   width: 100%; }
 
@@ -509,7 +509,7 @@ html {
 .picProjects {
   flex-direction: row;
   margin: 0px 0px;
-  background-image: url(grainwood.jpg);
+  background-image: url(grainwood2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -527,8 +527,9 @@ html {
 
 .pt {
   z-index: 100;
-  margin-left: 18%;
-  margin-top: 178px; }
+  margin-top: 178px;
+  width: 100%;
+  text-align: center; }
 
 #projectsTitle {
   color: white;
@@ -536,8 +537,9 @@ html {
   font-size: 128px;
   font-weight: bolder;
   margin: 0px;
-  text-align: left;
-  display: inline-flex; }
+  text-align: center;
+  display: inline-flex;
+  width: 75%; }
 
 #projectExamplesText1Title {
   font-size: 31px;
@@ -564,6 +566,8 @@ body {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .pt {
+    margin-top: 148px; }
   .container2 {
     flex-direction: column;
     display: flex; }

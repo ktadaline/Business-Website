@@ -247,7 +247,7 @@ body {
   margin: auto; }
 
 .sheeroverlay {
-  background: linear-gradient(rgba(255, 255, 255, 0.79), rgba(99, 99, 99, 0.58));
+  background: linear-gradient(rgba(115, 115, 115, 0.851), rgba(99, 99, 99, 0.58));
   height: 100%;
   width: 100%; }
 
@@ -427,8 +427,8 @@ html {
 
 .anchor {
   display: block;
-  height: 88px;
-  margin-top: -88px;
+  height: 228px;
+  margin-top: -228px;
   visibility: hidden; }
 
 #NI {
@@ -561,12 +561,12 @@ html {
 
 #subtitle {
   font-size: 26px;
-  margin: 0px; }
+  margin: 10px; }
 
 #subsubtitle {
   font-size: 20px;
   font-weight: normal;
-  margin: 0px; }
+  margin: 18px; }
 
 .InvisibleHandcuffs {
   margin: 0px 0px;
@@ -590,10 +590,10 @@ html {
 
 .containIH {
   display: flex;
-  width: 73%; }
+  width: 63%; }
 
 .ihimg {
-  flex: 2;
+  flex: 1.5;
   justify-content: space-between;
   margin: 30px;
   display: flex;
@@ -608,8 +608,14 @@ html {
 .ihcover {
   width: 100%; }
 
+#pd {
+  border: 1px solid black; }
+
+#ny {
+  border: 1px solid black; }
+
 .amz {
-  width: 100px;
+  width: 168px;
   padding: 10px;
   text-align: center;
   justify-content: center;
@@ -618,8 +624,8 @@ html {
   border-radius: 5px; }
 
 .pdf {
-  width: 100px;
-  padding: 8px;
+  width: 200px;
+  padding: 16px;
   text-align: center;
   justify-content: center;
   margin: auto;
@@ -770,9 +776,11 @@ html {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .anchor {
     display: block;
-    height: 333px;
-    margin-top: -333px;
+    height: 428px;
+    margin-top: -428px;
     visibility: hidden; }
+  .amz {
+    width: 300px; }
   .breaks {
     height: 0px; }
   .sticky + .breaks {
@@ -789,23 +797,43 @@ html {
     line-height: 55px;
     padding: 12px; }
   #navbar a {
-    font-size: 28px;
-    margin: 28px; }
+    font-size: 26px;
+    margin: 10px; }
+  .pdf {
+    width: 320px;
+    padding: 28px; }
   .sticky {
-    top: 175px; }
+    top: 208px; }
+  .princtitle {
+    font-size: 38px; }
   .nationalImpact {
     border-top: 88px solid #eaeaea; }
   .bBullet {
-    font-size: 33px; }
+    font-size: 21px; }
   #brian {
-    width: 90%;
-    font-size: 28px; }
+    width: 90%; }
   .green {
     width: 80px;
     height: 80px; }
   .containIH {
     width: 100%;
-    font-size: 38px; }
+    font-size: 33px;
+    flex-direction: column-reverse; }
+  .ihabout {
+    margin: 0px 108px; }
+  .ihimg {
+    margin: 8px  228px;
+    margin-top: 228px; }
+  .ihcover {
+    margin-top: -358px; }
+  #booktitle {
+    font-size: 55px; }
+  #subsubtitle {
+    font-size: 38px;
+    margin: 18px; }
+  #subtitle {
+    font-size: 38px;
+    margin: 18px; }
   #ht {
     margin: 258px auto; }
   #NI {

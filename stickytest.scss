@@ -19,8 +19,8 @@ background-color: rgba(0, 0, 0, 0.212);
 
 .anchor{
   display: block;
-  height: 88px; //same height as header
-  margin-top: -88px; //same height as header
+  height: 228px; //same height as header
+  margin-top: -228px; //same height as header
   visibility: hidden;
 }
 
@@ -198,12 +198,12 @@ margin: 0px;
 }
 #subtitle{
 font-size: 26px;
-margin: 0px;
+margin: 10px;
 }
 #subsubtitle{
   font-size: 20px;
   font-weight: normal;
-  margin:0px;
+  margin:18px;
 }
 
 .InvisibleHandcuffs{
@@ -232,7 +232,7 @@ border-bottom:88px solid #eaeaea;
 
 .containIH{
 display: flex;
-width: 73%;
+width: 63%;
 }
 
 .ihcover{
@@ -240,7 +240,7 @@ width: 73%;
 //margin: 75px;
 }
 .ihimg{
-flex:2;
+flex:1.5;
 justify-content: space-between;
 margin: 30px;
 display: flex;
@@ -257,8 +257,16 @@ justify-content: space-evenly;
   width:100%;
 }
 
+#pd{
+  border: 1px solid black;
+}
+
+#ny{
+  border: 1px solid black;
+}
+
 .amz{
-  width: 100px;
+  width: 168px;
   padding: 10px;
   text-align: center;
   justify-content: center;
@@ -268,8 +276,8 @@ justify-content: space-evenly;
 
 }
 .pdf{
-  width: 100px;
-  padding: 8px;
+  width: 200px;
+  padding: 16px;
   text-align: center;
   justify-content: center;
   margin: auto;
@@ -488,9 +496,12 @@ and (max-device-width : 480px) {
 
   .anchor{
     display: block;
-    height: 333px; //same height as header
-    margin-top: -333px; //same height as header
+    height: 428px; //same height as header
+    margin-top: -428px; //same height as header
     visibility: hidden;
+  }
+  .amz{
+    width:300px;
   }
 
   .breaks{
@@ -519,27 +530,35 @@ and (max-device-width : 480px) {
       padding: 12px;
     }
     #navbar a{
-     font-size: 28px;
-     margin: 28px;
+     font-size: 26px;
+     margin: 10px;
     }
-    .container {
+    .pdf{
+      width: 320px;
+      padding: 28px;
+    }
 
-    }
+
     .sticky{
-    top: 175px;
+    top: 208px;
     }
+
+    .princtitle{
+      font-size: 38px;
+    }
+  
 
     .nationalImpact{
      //margin-top: 108px;
      border-top: 88px solid #eaeaea;
     }
     .bBullet{
-      font-size: 33px;
+      font-size: 21px;
     }
 
     #brian{
       width: 90%;
-      font-size: 28px;
+     // font-size: 18px;
     }
     .green{
       width: 80px;
@@ -547,8 +566,32 @@ and (max-device-width : 480px) {
     }
     .containIH{
       width:100%;
-      font-size:38px;
+      font-size:33px;
+      flex-direction: column-reverse;
     }
+.ihabout{
+  margin:0px 108px;
+}
+.ihimg{
+  margin: 8px  228px;
+  margin-top: 228px;
+}
+.ihcover{
+  margin-top: -358px;
+}
+
+#booktitle{
+font-size:55px;
+}
+#subsubtitle{
+font-size: 38px;
+margin: 18px;
+}
+#subtitle{
+  font-size: 38px;
+  margin: 18px;
+}
+
     #ht{
       margin: 258px auto;
     }
