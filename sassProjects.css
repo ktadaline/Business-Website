@@ -499,8 +499,8 @@ html {
   padding: 5px 20px; }
 
 .newMarkets {
-  width: 260px;
-  height: 488px;
+  width: 280px;
+  height: 458px;
   top: 50px;
   align-self: flex-start;
   border-radius: 8px;
@@ -576,7 +576,7 @@ body {
     align-items: flex-end; }
   .newMarkets {
     margin: flex-start;
-    width: 588px;
+    width: 688px;
     height: 1088px; }
   .projectsText {
     order: 2;
