@@ -11,7 +11,7 @@
   height: 740px;
   width: 100%;
   margin: 0px;
-  background-image: url(startToFinish.png);
+  background-image: url(startToFinish5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -247,7 +247,7 @@ body {
   margin: auto; }
 
 .sheeroverlay {
-  background: linear-gradient(rgba(115, 115, 115, 0.851), rgba(99, 99, 99, 0.58));
+  background: linear-gradient(rgba(64, 64, 64, 0.72), rgba(99, 99, 99, 0.58));
   height: 100%;
   width: 100%; }
 
