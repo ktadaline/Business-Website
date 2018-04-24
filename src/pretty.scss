@@ -1,0 +1,229 @@
+$primary-color: green * 1.3;
+$second-color: black;
+$third-color: #ffffff;
+$primary-font: Helvetica;
+$sroub-font: impact;
+
+body{
+min-height: 100%;
+background-image: url(coffeeNotebook.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: fixed;
+
+}
+
+.headerLogo{
+    float: left;
+    margin-top: 0px;
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+}
+
+#both{
+    width: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0px;
+    padding: 48px 75px;
+    position: fixed;
+    top: 0px;
+    left:: 0px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    background-color: $third-color;
+}   
+
+.container{
+display: inline-block;
+//width: 1000px;
+}
+.right{
+    //display: inline-flex;
+    vertical-align: -webkit-baseline-middle;    
+  //  margin-right: 10%; 
+    text-align: right;
+    display:inline-block;
+    //margin: 0px;
+    top: 28px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 2px 2px;
+      //width: 100%; 
+     position: fixed;
+     // top: 0px;
+      right: 25px;
+    //  width: 400px;
+      text-overflow: ellipsis;
+ }
+
+/*.right{
+    list-style-type: none;
+    float: right;
+    //right: 0px;
+}
+*/
+.left {  
+    //display: inline-flex;
+    vertical-align: -webkit-baseline-middle;     
+      //margin: 0px;
+      //margin-left: 10%;
+      padding: 2px 2px;
+      //list-style: none;
+     display:inline-block;
+      top: 4px;
+      //list-style-type: none;
+      //color: $third-color;
+      //width: 100%;
+     // background-color: $third-color;
+     white-space: nowrap;
+    overflow: hidden;
+     text-align: left;
+      position: fixed;
+     // top: 0px;
+      left: 20px;
+      //border: #b8b6b6 1px;
+      //transform: translate(-50%, -50%);
+     // white-space: nowrap;
+      //overflow: hidden;
+      text-overflow: ellipsis;
+    //width:500px;
+  
+    }
+
+
+
+     li{
+      display: inline-block;
+       text-align: center;
+       padding: 0px 15px;
+      
+     } 
+
+     .r{ 
+       color: $second-color;
+       //display: inline-block;
+      padding: 5px 18px;
+       font-Size: 20px;
+       text-decoration: none;
+       font-family: $primary-font;
+       //text-align: center;  
+  
+     } 
+      .r:hover{
+        background-color: $third-color;
+        color: $primary-color;
+        font-family: $primary-font;
+      }
+
+.logo{
+    vertical-align: -webkit-baseline-middle;   
+    display: inline-block;
+}
+.sroub {
+    color: $second-color;
+    display: inline-block;
+    padding: 5px 3px;
+    font-Size: 35px;
+    text-decoration: none;
+    font-family: $sroub-font;
+    text-align: center;  
+    vertical-align: -webkit-baseline-middle;     
+  } 
+   .sroub:hover{
+     background-color: $third-color;
+     color: $primary-color;
+     font-family: $sroub-font;
+     cursor: pointer;
+   }
+
+   .logo:hover{
+    cursor: pointer;
+   }
+ 
+   #tree {
+    height: 60px;
+    width: 60px; }
+.main{
+   // top: 100px;
+}
+
+#quote{
+color: $third-color;
+font-family: $primary-font;
+top: 300px;
+position: fixed;
+left:50%;
+transform: translate(-50%, -50%);
+text-align: center;
+width: 790px;
+font-size: 70px;
+font-weight: 750;
+    }
+.manuscript{
+    color: $third-color;
+    font-family: $primary-font;
+    padding: 15px 0px;
+    top: 550px;
+    position: fixed;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 600px;
+    font-size: 20px;
+    //border: 1.5px solid hsla(0, 0%, 100%, 0.747);
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 5px;
+   text-decoration: none;
+   font-style: italic;
+   cursor: pointer;
+}
+.manuscript:hover{
+    background-color:  hsla(0, 0%, 0%, 0.4); 
+}
+
+#circle{
+    top: 580px;
+    position: fixed;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px;
+    border-radius:100px;
+    background-color: rgba(0, 0, 0, 0.507);
+
+}
+
+.mainProjects{
+    top: 400px;
+    position: fixed;
+    color: $third-color;
+    font-family: $primary-font;
+    width: 900px;
+    text-align: justify;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+}
+.lefty{
+    top: 400px;
+    position: fixed;
+    color: $third-color;
+    font-family: $primary-font;
+    width: 700px;
+    text-align: justify;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+}
+
+
+html{
+    height: 100%;
+}
